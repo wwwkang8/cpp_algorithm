@@ -8,6 +8,8 @@ public class SplitCamel {
 		String str=sc.nextLine();
 		
 		String[] splitedStr=str.split("(?=\\p{Upper})");
+
+		//String[] camelCaseWords = s.split("(?=[A-Z])");
 		
 		for(int i=0; i<splitedStr.length; i++){
 			System.out.println(splitedStr[i]);
